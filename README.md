@@ -1,3 +1,21 @@
+
+# Env Setup:
+
+```
+conda create -n federated python=3.7
+conda activate federated
+pip install --no-cache-dir torchvision==0.5.0
+pip install --no-cache-dir syft==0.2.9
+pip install --no-cache-dir torch==1.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html 
+pip install jupyterlab
+pip install ipynb
+pip install matplotlib
+pip install protobuf==3.20.*
+```
+
+----
+
+
 # federated_learning_course
 The materials for the Federated Learning Course Using [PyTorch](https://pytorch.org/) and [PySyft](https://github.com/OpenMined/PySyft) </br>
 [Federated Learning course on Udemy](https://www.udemy.com/course/federated_learning)
